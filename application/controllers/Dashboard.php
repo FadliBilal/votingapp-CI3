@@ -545,19 +545,16 @@ class Dashboard extends CI_Controller
 
 	public function usermanajemen_delete($id)
 	{
-		/*$r = $this->db->get_where('usersadm',array('id_login'=>$id))->row_array();
-	    
-	    unlink("./uploads/usermanajemen/".$r['gambar']);
-	    
-	    $this->db->delete('usersadm', array('id_login' => $id));
-		redirect('dashboard/usermanajemen');*/
 		$ids = $this->encrypt->decode($id);
-		$data = array(
-			'blokir' => 'Y',
-		);
-		$this->db->where('username', $ids);
-		$this->db->update('usersadm', $data);
-
+		
+		$r = $this->db->get_where('usersadm', array('username' => $ids))->row_array();
+		
+		if (isset($r['gambar']) && !empty($r['gambar'])) {
+			unlink("./uploads/usermanajemen/".$r['gambar']);
+		}
+		
+		$this->db->delete('usersadm', array('username' => $ids));
+		
 		redirect('dashboard/usermanajemen');
 	}
 }

@@ -5,11 +5,15 @@
         Dashboard
         <small>Cpanel</small>
       </h1>
+      <ol class="breadcrumb">
+            <li><a class="btn btn-primary btn-sm" href="usermanajemen_tambah">
+            <i class="fa fa-plus"></i>Tambah User</a>
+            </li>
+          </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-
       <div class="row">
         <div class="col-md-12">
           <div class="box box-success">
@@ -22,12 +26,12 @@
                 <thead>
                 <tr>
                   <th>No</th>
-                  <th width="35%">Username</th>
-                  <th width="20%">Nama_Lengkap</th>
+                  <th width="20%">Username</th>
+                  <th width="20%">Nama Lengkap</th>
                   <th width="20%">Email</th>
                   <th width="20%">Level</th>
-                  <th width="20%">Blokir</th>
-                  <th width="20%">Gambar</th>
+                  <th width="10%">Blokir</th>
+                  <th width="50%">Gambar</th>
                   <th width="8%">Actions</th>
                 </tr>
                 </thead>

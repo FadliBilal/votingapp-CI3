@@ -42,14 +42,14 @@
 						<div class="box box-primary">
 							<div class="box-body box-profile">
 							<?php if($kan->gambar){?>
-								<img class="profile-user-img img-responsive img-circle" src="<?=base_url('uploads/kandidat/').$kan->gambar?>" alt="<?=$kan->nama?>">
+								<img class="profile-user-img img-responsive" src="<?=base_url('uploads/kandidat/').$kan->gambar?>" alt="<?=$kan->nama?>">
 							<?php }else{?>
-								<img class="profile-user-img img-responsive img-circle" src="<?=base_url('uploads/kandidat/default-user.png')?>" alt="<?=$kan->nama?>">
+								<img class="profile-user-img img-responsive" src="<?=base_url('uploads/kandidat/default-user.png')?>" alt="<?=$kan->nama?>">
 							<?php } ?>	
 								<h3 class="profile-username text-center"><?=$kan->nama?></h3>
 								<ul class="list-group list-group-unbordered">
 									<li class="list-group-item">
-										<b>Detil Kandidat</b>
+										<b>Detail Kandidat</b>
 									</li>
 								</ul>
 								<p class="text-muted text-center"><?=$kan->ket?></p>

@@ -45,20 +45,21 @@
                   </div>
                   <div class="form-group">
                     <label>Level</label><br>
-                      <select name="level" class="form-control select2" style="width: 40%;">
-                        <?php foreach ($lvl->result() as $l) {
-                          echo "<option value='$l->level'>$l->level</option>";
-                        } ?>
-                      </select>
-                  </div> 
-                  <div class="form-group">
+                    <?php foreach ($lvl->result() as $l): ?>
+                        <label class="form-check-inline" style="margin-right: 10px;">
+                            <input class="form-check-input" type="radio" name="level" value="<?php echo $l->level; ?>"> <?php echo $l->level; ?>
+                        </label>
+                    <?php endforeach; ?>
+                </div>
+                <div class="form-group">
                     <label>Blokir</label><br>
-                      <select name="blokir" class="form-control select2" style="width: 40%;">
-                        <?php foreach ($opt->result() as $o) {
-                          echo "<option value='$o->opsi'>$o->opsi</option>";
-                        } ?>
-                      </select>
-                  </div> (Y= ya, N= tidak)
+                    <?php foreach ($opt->result() as $o): ?>
+                        <label class="form-check-inline" style="margin-right: 10px;">
+                            <input class="form-check-input" type="radio" name="blokir" value="<?php echo $o->opsi; ?>"> <?php echo $o->opsi; ?>
+                        </label>
+                    <?php endforeach; ?>
+                </div>
+                <p>(Y= ya, N= tidak)</p>
                   <div class="form-group">
                     <label>Gambar</label>
                     <input type="file" name="gambar" class="form-control" style="width:50%;">

@@ -100,30 +100,30 @@
           <?php if ($this->session->level == 'admin') { ?>
 
             <li class="treeview">
-              <a href="<?= site_url() . '/dashboard/profil' ?>">
-                <i class="fa fa-dashboard"></i> <span>Profil Identitas Web</span>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="<?= site_url() . '/dashboard/kandidat' ?>">
-                <i class="fa fa-user"></i> <span>Profil Kandidat</span>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="<?= site_url() . '/dashboard/seting' ?>">
-                <i class="fa fa-gears"></i> <span>Seting</span>
-              </a>
-            </li>
-            <li class="treeview">
               <a href="#">
-                <i class="fa fa-pie-chart"></i>
-                <span>Data User Manajemen</span>
+                <i class="fa fa-gears"></i>
+                <span>Config Sistem</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="<?= site_url() . '/dashboard/usermanajemen_tambah' ?>"><i class="fa fa-circle-o"></i> Tambah User</a></li>
+                <li><a href="<?= site_url() . '/dashboard/profil' ?>"><i class="fa fa-circle-o"></i> Profile Sistem</a></li>
+                <li><a href="<?= site_url() . '/dashboard/seting' ?>"><i class="fa fa-circle-o"></i> Setting Sistem</a></li>
+
+              </ul>
+            </li>
+
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-pie-chart"></i>
+                <span>Data Manajemen</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="<?= site_url() . '/dashboard/kandidat' ?>"><i class="fa fa-circle-o"></i> Data Kandidat</a></li>
                 <li><a href="<?= site_url() . '/dashboard/usermanajemen' ?>"><i class="fa fa-circle-o"></i> Daftar User</a></li>
 
               </ul>
@@ -150,8 +150,8 @@
           </li>
 
 
-          <li class="header">A U T H</li>
-          <li><a href="<?= site_url() . '/admin/logout' ?>"><i class="fa fa-circle-o text-red"></i> <span>Logout</span></a></li>
+          <li class="header">EXIT</li>
+          <li><a href="<?= site_url() . '/admin/logout' ?>"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Logout</span></a></li>
         </ul>
       </section>
       <!-- /.sidebar -->

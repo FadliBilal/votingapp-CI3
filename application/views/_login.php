@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>SISTEM INFORMASI</title>
+  <title>Sistem Voting | Komting</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="<?= base_url() . 'assets/' ?>bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -42,7 +42,7 @@
       </div>
       <!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">Sign in untuk memulai session anda</p>
+        <p class="login-box-msg">Masukkan Data untuk Login</p>
         <form action="<?= base_url() . 'admin' ?>" method="post">
           <div class="form-group has-feedback">
             <input name="user" type="text" class="form-control" placeholder="User ID">
