@@ -14,17 +14,15 @@ This repository contains the source code for an electronic voting system develop
 ## Installation
 
 ### Prerequisites
-- PHP >= 7.2
-- MySQL or MariaDB
-- Apache or Nginx
-- Composer
+- PHP >= 7.4
+- MySQL 
+- Xampp 
 
 ### Steps
 1. Clone the repository.
-2. Install dependencies.
-3. Configure the database.
-4. Set up environment variables.
-5. Run the application.
+2. Create and Configure the database.
+3. Set up environment variables.
+4. Run the application check in confic for URL.
 
 ## Usage
 
@@ -38,3 +36,6 @@ This repository contains the source code for an electronic voting system develop
 - **Register/Login**: Voters can register or log in.
 - **Vote**: Cast votes securely.
 - **Confirm**: Receive confirmation of vote submission.
+
+## Contact
+Check in profile Thank You!
