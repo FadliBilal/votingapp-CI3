@@ -176,7 +176,7 @@
 	<section class="content-header">
 	  <h1>
 		Dashboard
-		<small>Cpanel</small>
+		<small>2024</small>
 	  </h1>
 	</section>
 	<section class="content">

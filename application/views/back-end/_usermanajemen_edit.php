@@ -3,7 +3,7 @@
         <section class="content-header">
           <h1>
             Dashboard
-            <small>Cpanel</small>
+            <small>2024</small>
           </h1>
         </section>
 
@@ -21,13 +21,13 @@
                 <div class="box-body">
                   <div class="form-group">
                     <label>Username</label>
-                    
                     <input name="username" type="text" class="form-control" placeholder="Username" value="<?=$ume['username'] ?>" style="width:80%;" readonly>
                   </div>
               
                   <div class="form-group">
                     <label>Password</label>
-                    <input name="password" type="password" class="form-control" placeholder="Password"  style="width:80%;">
+                    <input name="password" type="password" class="form-control" placeholder="Ketik Password baru untuk Login" style="width:80%;">
+                    <p class="help-block">Kosongkan jika tidak ingin diganti.</p>
                   </div>
                   <div class="form-group">
                     <label>Nama Lengkap</label>
@@ -37,6 +37,7 @@
                   <div class="form-group">
                     <label>Email</label>
                     <input name="email" type="email" class="form-control" placeholder="Email" value="<?=$ume['email'] ?>" style="width:80%;">
+                    <p class="help-block">Kosongkan jika tidak ingin diganti.</p>
                   </div>
                   <?php if($this->session->level == 'admin'){?>
                   <div class="form-group">

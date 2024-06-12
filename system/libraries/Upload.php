@@ -1219,7 +1219,7 @@ class CI_Upload {
 		/**
 		 * Fileinfo extension - most reliable method
 		 *
-		 * Apparently XAMPP, CentOS, cPanel and who knows what
+		 * Apparently XAMPP, CentOS, 2024 and who knows what
 		 * other PHP distribution channels EXPLICITLY DISABLE
 		 * ext/fileinfo, which is otherwise enabled by default
 		 * since PHP 5.3 ...

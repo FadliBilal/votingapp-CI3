@@ -3,7 +3,6 @@
 	<section class="content-header">
 	  <h1>
 		Dashboard
-		<small>Cpanel</small>
 	  </h1>
 	</section>
 	<section class="content">
