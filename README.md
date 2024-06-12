@@ -1,46 +1,41 @@
-# voting
-Sistem Informasi E-voting
+# E-Voting System
 
-## Table of Contents
+This repository contains the source code for an electronic voting system developed using CodeIgniter 3. The system aims to facilitate secure and efficient voting processes for elections, allowing users to vote electronically and administrators to manage the voting process.
 
-- [Project Description](#project-description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
-
-## Project Description
-
-A voting app is a digital platform designed to facilitate the collection and management of votes for various types of elections or decision-making processes. The primary goal of a voting app is to provide a secure, transparent, and user-friendly means for participants to cast their votes.
-
-## Feature
-
-Dibangun dengan Framework Codeigniter 3 dan mysql
-
+## Features
+- **User Authentication**: Secure login and registration for voters and administrators.
+- **Dashboard**: Administrative dashboard for managing elections, candidates, and voters.
+- **Voting Process**: Streamlined interface for voters to cast their votes securely.
+- **Encryption**: Secure encryption methods for vote confidentiality and integrity.
+- **User Management**: Features for adding, editing, and removing users, and managing user roles and permissions.
+- **Image Management**: Upload and manage candidate images.
+- **Database Management**: Configuration and management of the database for storing voting data.
 
 ## Installation
 
-ganti folder Application->config->database.php sesuai setelan
-ganti folder Application->config->config.php sesuai setelan
+### Prerequisites
+- PHP >= 7.4
+- MySQL 
+- Xampp 
+
+### Steps
+1. Clone the repository.
+2. Create and Configure the database.
+3. Set up environment variables.
+4. Run the application check in confic for URL.
 
 ## Usage
 
-Login sebagai admin : 
-username : administrator
-password : admin
+### For Administrators
+- **Login**: Access the administrative dashboard.
+- **Manage Elections**: Create and manage elections.
+- **Manage Candidates**: Add, edit, or remove candidates.
+- **Manage Voters**: Register new voters and manage existing voter information.
 
+### For Voters
+- **Register/Login**: Voters can register or log in.
+- **Vote**: Cast votes securely.
+- **Confirm**: Receive confirmation of vote submission.
 
-login sebagai voter
-username : user1 (user2 -> user5)
-password : admin
-
-
-
-
-
-
-
-
+## Contact
+Check in profile Thank You!
