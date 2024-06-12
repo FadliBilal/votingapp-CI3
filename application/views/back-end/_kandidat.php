@@ -3,7 +3,7 @@
         <section class="content-header">
           <h1>
             Dashboard
-            <small>2024</small>
+            
           </h1>
           <ol class="breadcrumb">
             <li><a class="btn btn-primary btn-sm" href="kandidat_tambah">

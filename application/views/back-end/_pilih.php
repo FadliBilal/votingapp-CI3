@@ -3,7 +3,7 @@
         <section class="content-header">
           <h1>
             Dashboard
-            <small>2024</small>
+            
           </h1>
         </section>
 
