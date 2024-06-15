@@ -31,9 +31,10 @@ This repository contains the source code for an electronic voting system develop
 - **Manage Elections**: Create and manage elections.
 - **Manage Candidates**: Add, edit, or remove candidates.
 - **Manage Voters**: Register new voters and manage existing voter information.
+- **Manage Result**: Admin can setting result to hide or view for voter.
 
 ### For Voters
-- **Register/Login**: Voters can register or log in.
+- **Login**: Voters can log in.
 - **Vote**: Cast votes securely.
 - **Confirm**: Receive confirmation of vote submission.
 
