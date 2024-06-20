@@ -14,17 +14,19 @@
       font-family: Arial, sans-serif;
       background: url('<?= base_url('assets/images/bg voting.jpg') ?>') no-repeat center center fixed;
       background-size: cover;
+      margin: 0; /* Menghilangkan margin body */
+      padding: 0; /* Menghilangkan padding body */
     }
 
     .jumbotron {
       background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
       padding: 2rem 1rem;
-      border-radius: 0.5rem;
       box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
+      margin: 0; 
     }
 
     .display-4 {
@@ -86,7 +88,7 @@
   </style>
 </head>
 <body>
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 mb-5 mb-lg-0 text-center text-lg-left">
@@ -126,7 +128,7 @@
                 </div>
                 <button type="submit" name="login" class="btn btn-primary btn-block">Sign In</button>
               </form>
-              <p class="contact-admin">Jika kamu ada kendala, mohon <a href="https://wa.me/6285339333616" target="_blank">kontak admin</a>.</p>
+              <p class="contact-admin">Jika kamu ada kendala, Kontak <a href="https://wa.me/6285339333616" target="_blank">ATMIN</a>.</p>
             </div>
           </div>
         </div>
